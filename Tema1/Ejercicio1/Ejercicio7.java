@@ -11,7 +11,7 @@ public class Ejercicio7 {
 
         do {
             System.out.println("Introduce una cadena de texto para añadir a la lista:");
-            System.out.println("(Cuando introduzcas 'fin' dejara de añadir. Levas añadidas"+indice+" cadenas de texto.");
+            System.out.println("(Cuando introduzcas 'fin' dejara de añadir. Levas añadidas"+(indice+1)+" cadenas de texto.");
             temp=sc.nextLine();
             strlist.add(indice,temp);
             indice++;
@@ -24,7 +24,10 @@ public class Ejercicio7 {
 
             for(int i=0; i< strlist.size(); i++){
                 if(temp == strlist.get(i)){
-                    System.out.println("El número "+num+" esta en la posición "+i+".");
+                    System.out.println("La cadena "+temp+" esta en la posición "+(i+1)+".");
+                }
+                else{
+                    System.out.println("La cadena no exixte.");
                 }
             }
 

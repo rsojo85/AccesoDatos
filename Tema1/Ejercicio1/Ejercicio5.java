@@ -1,10 +1,11 @@
+import java.util.Scanner;
 
-    public class Ejercicio5 {
+public class Ejercicio5 {
         public static boolean EsCapicua(int num) {
             int faltante = num;
             int numeroInvertido = 0;
 
-            for(int restante = false; faltante != 0; faltante /= 10) {
+            for (int restante = faltante; faltante != 0; faltante /= 10) {
                 restante = faltante % 10;
                 numeroInvertido = numeroInvertido * 10 + restante;
             }
@@ -23,7 +24,7 @@
             boolean esprimo = true;
             int divisor = 2;
 
-            while(esprimo && divisor != num) {
+            while (esprimo && divisor != num) {
                 if (num % divisor == 0) {
                     esprimo = false;
                 } else {
@@ -49,3 +50,4 @@
             }
 
         }
+    }
