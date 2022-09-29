@@ -4,35 +4,25 @@ public class Ejercicio5 {
         public static boolean EsCapicua(int num) {
             int faltante = num;
             int numeroInvertido = 0;
-
             for (int restante = faltante; faltante != 0; faltante /= 10) {
                 restante = faltante % 10;
                 numeroInvertido = numeroInvertido * 10 + restante;
             }
-
-            boolean capicua;
             if (numeroInvertido == num) {
-                capicua = true;
+                return true;
             } else {
-                capicua = false;
+                return false;
             }
-
-            return capicua;
         }
 
         public static boolean Esprimo(int num) {
-            boolean esprimo = true;
-            int divisor = 2;
-
-            while (esprimo && divisor != num) {
-                if (num % divisor == 0) {
-                    esprimo = false;
-                } else {
-                    ++divisor;
+            if(num<=1|| num%2==0){return false};
+            for(int i=3;i*i<=num; i+=2){
+                if(num%i==0){
+                    return false;
                 }
             }
-
-            return esprimo;
+            return true;
         }
 
         public static void main(String[] args) {
