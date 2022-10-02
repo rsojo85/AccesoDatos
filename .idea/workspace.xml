@@ -5,13 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed64581f-f540-442b-b08e-dfc068ac2be6" name="Changes" comment="Subida ejercicios (2)">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tema1/Ejercicio 2/Ej02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema1/Ejercicio 2/Libro.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema1/Ejercicio1/Ejercicio5.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema1/Ejercicio1/Ejercicio5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tema1/Ejercicio1/Ejercicio7.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tema1/Ejercicio1/Ejercicio7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tema0/Ejercicio1/Ejercicio1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tema0/Ejercicio1/Ejercicio8/Ejercicio8.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tema0/Ejercicio1/Ejercicio8/ListaDeDatos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tema0/Ejercicio1/Ejercicio8/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tema0/Tema0.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tema1/Ejercicio3_Lectura/Ejercicio3_Lectura.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tema1/Tema1_1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tema1/Ejercicio 2/Ej02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tema1/Ejercicio1/Ejercicio2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tema1/Ejercicio1/Ejercicio3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tema1/Ejercicio1/Ejercicio4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tema1/Ejercicio1/Ejercicio5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tema1/Ejercicio1/Ejercicio6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tema1/Ejercicio1/Ejercicio7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tema1/Ejercicio1/ejercicio1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AccesoDatos/Ej02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AccesoDatos/Ejercicio2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AccesoDatos/Ejercicio3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AccesoDatos/Ejercicio4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AccesoDatos/Ejercicio5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AccesoDatos/Ejercicio6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AccesoDatos/Ejercicio7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AccesoDatos/Libro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AccesoDatos/ejercicio1.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,20 +58,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/media/rafdav/0C6A8FEF6A8FD43C/2DAM/AccesoDatos&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.language&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "19",
+    "last_opened_file_path": "G:/Mi unidad/2DAM/AccesoDatos",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "configurable.group.language"
   }
-}</component>
-  <component name="RunManager" selected="Application.Ej02">
+}]]></component>
+  <component name="RunManager" selected="Application.Ejercicio2">
     <configuration name="Ej02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ej02" />
       <module name="AccesoDatos" />
@@ -59,14 +81,7 @@
     </configuration>
     <configuration name="Ejercicio2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ejercicio2" />
-      <module name="AccesoDatos" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ejercicio5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ejercicio5" />
-      <module name="AccesoDatos" />
+      <module name="Ejercicio1" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -85,13 +100,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Ejercicio3_Lectura" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ejercicio2" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Ej02" />
         <item itemvalue="Application.Ejercicio7" />
         <item itemvalue="Application.Ejercicio6" />
-        <item itemvalue="Application.Ejercicio5" />
-        <item itemvalue="Application.Ejercicio2" />
       </list>
     </recent_temporary>
   </component>
@@ -111,7 +133,28 @@
       <option name="project" value="LOCAL" />
       <updated>1664210533487</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Subida ejercicios (2)">
+      <created>1664452837790</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664452837790</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Subida ejercicios (2)">
+      <created>1664452857835</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664452857835</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Subida ejercicios (2)">
+      <created>1664458766985</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1664458766985</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
